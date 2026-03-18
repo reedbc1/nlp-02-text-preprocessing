@@ -8,9 +8,9 @@
 
 [project]
 site_name = "Web Mining and Applied NLP"
-site_url = "https://denisecase.github.io/nlp-02-text-preprocessing/"
-repo_url = "https://github.com/denisecase/nlp-02-text-preprocessing"
-repo_name = "denisecase/nlp-02-text-preprocessing"
+site_url = "https://reedbc1.github.io/nlp-02-text-preprocessing/"
+repo_url = "https://github.com/reedbc1/nlp-02-text-preprocessing"
+repo_name = "reedbc1/nlp-02-text-preprocessing"
 site_description = "Web Mining and Applied NLP project documentation"
 docs_dir = "docs" # source directory for documentation markdown files
 site_dir = "site" # output directory for generated site (ignored by Git; not in repo)
@@ -19,7 +19,7 @@ edit_uri = "edit/main/docs/" # "Edit this page" links (GitHub)
 [project.extra]
 # WHY: Social links provide easy access to project repositories and profiles.
 social = [
-    {icon = "fontawesome/brands/github", link = "https://github.com/denisecase/nlp-02-text-preprocessing" },
+    {icon = "fontawesome/brands/github", link = "https://github.com/reedbc1/nlp-02-text-preprocessing" },
 ]
 
 # ------------------------------------------------------------
