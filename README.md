@@ -143,3 +143,17 @@ git push -u origin main
 ## Example Artifact (Output)
 
 ![Word Cloud Example](docs/images/word_cloud_example.png)
+
+## Modifications
+
+### Changes Made
+I changed the data input for text_preprocessing_reed.ipynb and text_processing_reed.py.
+The input is text_data_reed.txt, which is populated by a script (src/nlp/fetch_data.py) that fetches the 100 most recent X posts that mention the keyword "AI". The fetch_data.py script uses the X Python SDK, called XDK.
+
+### Reasons for Changes
+While web mining often uses custom crawlers and HTTP requests, many platforms have dedicated APIs that allow developers to access their data. Learning and using API platforms is therefore important for accessing data from providers who make them accessable.
+
+### Observations
+Links were very common within X posts, with "https" being the most common token after cleaning. The word "you" was second most common. "What" and "que" together were third most common.
+
+Oddly, the number of tokens increased after replacing invalid characters with spaces. I wonder if this has to do with there being characters that were not alpha-numeric in the data, such as Japanese characters.
