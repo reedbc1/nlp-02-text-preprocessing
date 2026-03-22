@@ -1,0 +1,5 @@
+Natural Language Processing helps computers understand human language.
+Text preprocessing removes punctuation, converts text to lowercase, and splits text into tokens.
+Some words appear very frequently in language and may be removed as stop words.
+Python provides many tools for working with text data.
+Web pages emails and social media posts are common sources of text data.
